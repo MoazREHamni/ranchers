@@ -1,0 +1,191 @@
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    box-shadow: 2000px green;
+    
+
+}
+
+* {
+    font-family: 'Phudu', cursive;
+    font-size: 20px;
+}
+
+.dropdown-item:hover {
+    color: yellow !important;
+    transition-duration: 0.8s;
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.card {
+    box-shadow: 5px 5px 10px #F92;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    transition-duration: 0.8s;
+}
+
+#bg-1 {
+    background-color: rgb(167, 55, 55);
+}
+
+.btn-1 {
+    color: white;
+    background-color: rgb(234, 34, 34);
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 22px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-1:hover {
+    background-color: #F92;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+.btn-2 {
+    color: white;
+    background-color: rgb(237, 237, 34);
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 22px;
+    border: none;
+}
+.btn-2:hover{
+    background-color: #F92;
+}
+
+.btn-3 {
+    color: white;
+    background-color: rgb(234, 34, 34);
+    border-radius: 20px;
+    padding: 7px 35px;
+    font-size: 22px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-3:hover {
+    background-color: rgb(201, 201, 27);
+    transition-duration: 0.7s;
+}
+
+.btn-4 {
+    color: white;
+    background-color: rgb(101, 97, 97);
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 22px;
+    border: none;
+}
+
+.btn-4:hover {
+    background-color: gray;
+    transition-duration: 0.7s;
+}
+
+.last-img {
+    background-image: url('logo/pexels-pixabay-326333 (3).jpg');
+    min-height: 500px;
+    min-width: 100vw;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+
+
+#contact {
+    background-color: rgb(47, 47, 47);
+}
+
+.contact-1 input {
+    min-width: 60%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 17px;
+    padding: 8px;
+}
+
+.contact-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-2 input {
+
+    border-radius: 10px;
+    background-color: black;
+    color: color;
+    border: none;
+    margin-bottom: 17px;
+    padding: 8px;
+}
+
+textarea {
+    /* min-width: 60%; */
+    border-radius: 10px;
+    background-color: black;
+
+    border: none;
+    margin-bottom: 17px;
+    padding: 8px;
+}
+
+#social-feed {
+
+    padding-bottom: 150px;
+}
+
+#footer {
+    background-color: black;
+   
+}
+
+.footer-img {
+    margin-top: 100px;
+}
+
+.last-box {
+    position: relative;
+    bottom: 100px;
+}
+
+.icons>a {
+    background-color: rgb(213, 213, 24);
+    padding: 14px;
+    border-radius: 21px;
+
+}
+
+.icons>a:hover {
+    background-color: rgb(115, 8, 8);
+    transition-duration: 0.7s;
+}
+
+.footer-p {
+    text-align: center;
+    color: rgb(182, 178, 178);
+    font-size: 14px;
+}
+
+.fa-cart-shopping:hover {
+    color: lightgray !important;
+    transition: 0.8s;
+
+}
