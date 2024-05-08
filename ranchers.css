@@ -95,7 +95,7 @@ body {
 }
 
 .last-img {
-    background-image: url('bg.jpg');
+    background-color: rgb(255, 193, 7);
     min-height: 500px;
     min-width: 100vw;
     background-size: cover;
