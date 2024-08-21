@@ -25,10 +25,61 @@
 
 <body>
 
-<?php include('partials/_dbconnected.php'); ?>
 
-  <?php include('partials/_header.php'); ?>
+<div class=" bg-warning">
+        <h6 class="text-center py-1 mb-0  text-light"
+            style="font-family: " Segoe UI ", Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; background-color: #f92;">
+            Ranchers Cafe
+            Delivering In Faisalabad</h6>
+    </div>
+    <!-- ................NAV BAR/................ -->
+    <nav class=" navbar navbar-expand-lg  navbar-dark" style="background-color: black;">
+        <div class="container-fluid  ">
+            <a class="navbar-brand ms-4" href="#"><img src="logo\logo2-png.png" alt="" height="80px"
+                    width="120px" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto me-2 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fw-bolder" aria-current="page" href="\RAnchers\index.php">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light fw-bolder" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Chiken Burger</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Beef Burger</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Pizza</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Fries</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Drinks</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Frizza</a></li>
 
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\kidsmenu.php">Kids Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\franchise.php">Franchising</a>
+                    </li>
+
+                </ul>
+                <div class="text-center">
+                    <i class="fa-solid fa-cart-shopping fa-xl text-light my-auto me-2"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-- ....................HOME SECTION................ -->
 
     <div class="container-fluid m-0 p-0 " id="home">
@@ -204,12 +255,197 @@
     <!-- ,...................................CONTACT,............................... -->
 
 
+  <div class="container-fluid bg-warning" id="social-feed">
+        <h1 class="text-dark text-center text-decoration-underline fs-1 pt-5 pb-5 fw-bolder"> OUR SOCIAL FEED</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-6 pb-4 pb-md-0">
 
+                    <div class="card">
+                        <img src="social/10.jpg" alt="" class="card-img-top">
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-6 pb-4 pb-md-0">
+                    <div class="card">
+                        <img src="social/12.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img src="social/10.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 ">
+                    <div class="card">
+                        <img src="social/19.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/16.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/1.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/2.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/3.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/4.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/5.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/6.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/7.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/10.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/11.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/12.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/14.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/16.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/6.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/19.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 pt-4">
+                    <div class="card">
+                        <img src="social/7.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class=" btn-4 me-2 fs-6  mt-4 mb-3">Load More...</button>
+                <button class=" btn-1  mt-4 fs-6 mb-3"><i class="fa-brands fa-instagram"></i> Follow on
+                    Instagram</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ........................................          F O O T E R         ......................................... -->
+
+    <div class="container-fluid " id="footer">
+        <div class="container bg-dark pb-5 w-75 last-box">
+            <div class="d-flex justify-content-center">
+                <img src="logo/footer-logo.png" class="img-fluid footer-img " height="150px" width="170px" alt="">
+            </div>
+            <p class="footer-p mt-2 ">If yer looking fr’ a mighty good time coupled with a mighty good
+                meal, then giddyup and come<br>
+                on over to Ranchers!</p>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+
+                    <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light " href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light " href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Chiken Burger</a></li>
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Beef Burger</a></li>
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Pizza</a></li>
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Chiken Burger</a></li>
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Beef Burger</a></li>
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Pizza</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light " href="#">Kids Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light " href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light " href="#">Franchising</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="text-center icons mt-3">
+                <a href="https://www.facebook.com" target="_blank"><i
+                        class="fa-brands fa-xl fa-facebook text-light "></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i
+                        class="fa-brands fa-xl fa-instagram text-light"></i></a><br>
+                <p class="footer-p mt-4">2022© Ranchers Café <br>
+                    All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="text-center ">
+
+            <p class="text-light mb-0 pb-2 fs-6 fw-lighter">Ranchers Café 2022© POWERED BY CODISTAN.</p>
+        </div>
+
+    </div>
 
    
-    <?php include('contact.php'); ?>
-    <?php include('partials/_footer.php'); ?>
-
 
 
 
