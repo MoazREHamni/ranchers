@@ -37,9 +37,60 @@
 
 <body class="bg-dark">
 
-    <?php include('partials/_dbconnected.php'); ?>
+<div class=" bg-warning">
+        <h6 class="text-center py-1 mb-0  text-light"
+            style="font-family: " Segoe UI ", Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; background-color: #f92;">
+            Ranchers Cafe
+            Delivering In Faisalabad</h6>
+    </div>
+    <!-- ................NAV BAR/................ -->
+    <nav class=" navbar navbar-expand-lg  navbar-dark" style="background-color: black;">
+        <div class="container-fluid  ">
+            <a class="navbar-brand ms-4" href="#"><img src="logo\logo2-png.png" alt="" height="80px"
+                    width="120px" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto me-2 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fw-bolder" aria-current="page" href="\RAnchers\index.php">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light fw-bolder" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Chiken Burger</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Beef Burger</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Pizza</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Fries</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Drinks</a></li>
+                            <li><a class="dropdown-item text-light bg-dark" href="#">Frizza</a></li>
 
-    <?php include('partials/_header.php'); ?>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\RAnchers\kidsmenu.php">Kids Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\RAnchers\about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-bolder" href="\RAnchers\franchise.php">Franchising</a>
+                    </li>
+
+                </ul>
+                <div class="text-center">
+                    <i class="fa-solid fa-cart-shopping fa-xl text-light my-auto me-2"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <!-- Home Section -->
     <div class="container-fluid p-0">
